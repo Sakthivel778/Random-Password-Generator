@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#myH3{
+    display: inline-block;
+}
+
+.checkBox{
+    background-color: rgb(157, 136, 192);
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+#cap,#small,#num,#sym{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 58px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+label{
+    display: inline;
+    padding: 20px 40px;
+    margin: 20px 10px;
+}
+
+button{
+    border: none;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+button:hover{
+    transition: 500ms;
+    color: antiquewhite;
+}
+
+#displaypassword{
+    font-family: Verdana, Geneva,sans-serif;
+}
